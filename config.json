@@ -1,0 +1,14 @@
+{
+  "dataBase": {
+    "host":"127.0.0.1",
+    "port": "3306",
+    "unix_socket": "/tmp/mysql.sock",
+    "user":"root",
+    "passwd":"",
+    "db": ["stock"]
+  },
+  "tushare": {
+    "token": "53d4b21908f23e3c8402efdb3f24b910b98f79126e3b9c43a971ffd2",
+    "stock_pool": ["603912.SH","300666.SZ","300618.SZ","002049.SZ","300672.SZ","002415.SZ","002881.SZ"]
+  }
+}
