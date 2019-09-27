@@ -10,7 +10,7 @@ class GetDataFromTushare:
   pro = ts.pro_api()
 
   def __init__(self):
-    # 设置tushare pro的token并获取连接
+    # 设置tushare
     with open('config.json') as f:
       cfg = json.load(f)
     self.tushare_cfg = cfg['tushare']

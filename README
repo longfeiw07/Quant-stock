@@ -1,0 +1,6 @@
+模块说明
+DataFromTushare -- 从tushare获取数据，写到本地MySQL
+dataBase -- MySQL操作模块
+localStockInfo -- 读取本地数据库相关操作
+xgboost -- xgboost 作为预测模型
+chartplot -- 数据可视化
