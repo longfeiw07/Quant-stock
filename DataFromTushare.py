@@ -93,9 +93,9 @@ stockStateInstance = StockState()
 
 if __name__ == '__main__':
   # 更新股票列表
-  tushareInstance.updateStockList()
+  # tushareInstance.updateStockList()
   # 更新stock_pool至昨天
-  time_temp = datetime.datetime.now() - datetime.timedelta(days=1)
+  time_temp = datetime.datetime.now()
   end_dt = time_temp.strftime('%Y%m%d')
   for stock_code in tushareInstance.getStockPool():
     start_dt = stockStateInstance.getStockLastLocalDate(stock_code)
